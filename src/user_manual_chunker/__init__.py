@@ -36,6 +36,7 @@ from .pattern_handlers import (
 )
 from .summary_generator import SummaryGenerator
 from .embedding_generator import EmbeddingGenerator
+from .user_manual_chunker import UserManualChunker, ProcessingStatistics
 
 __all__ = [
     "Heading",
@@ -63,4 +64,6 @@ __all__ = [
     "PatternAwareChunker",
     "SummaryGenerator",
     "EmbeddingGenerator",
+    "UserManualChunker",
+    "ProcessingStatistics",
 ]
